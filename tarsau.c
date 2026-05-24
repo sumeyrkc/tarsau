@@ -1,6 +1,3 @@
-Tabii ki, kodun daha sade ve temiz görünmesi için bütün yorum satırlarını sildim. Kodu Codespaces'taki `tarsau.c` dosyanın içine doğrudan yapıştırabilirsin:
-
-```c
 #define _POSIX_C_SOURCE 200809L
 
 #include <stdio.h>
@@ -463,7 +460,7 @@ int do_extract(const char *archive_name, const char *dest_dir) {
 
     free(metadata);
     fclose(f);
-    printf("Dosyalar başarıyla çıkarıldı.\n");
+    printf("Dosyalar başarıyla açıldı.\n");
     return 0;
 }
 
@@ -543,5 +540,3 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 }
-
-```
